@@ -1,0 +1,4371 @@
+{
+  "version": "2.11",
+  "children": [
+    {
+      "type": "frame",
+      "id": "Q8t5I",
+      "x": 0,
+      "y": 0,
+      "name": "Nav Link",
+      "reusable": true,
+      "children": [
+        {
+          "type": "text",
+          "id": "i1Ydh",
+          "name": "navLinkText",
+          "fill": "#FFFFFF",
+          "content": "LINK",
+          "fontFamily": "Inter",
+          "fontSize": 14,
+          "fontWeight": "normal",
+          "letterSpacing": 1
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "grTx1",
+      "x": 0,
+      "y": 0,
+      "name": "Homepage",
+      "width": 1440,
+      "height": 3000,
+      "fill": "#0A0A0A",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "HXwgu",
+          "name": "header",
+          "width": "fill_container",
+          "height": 80,
+          "fill": "#0A0A0A",
+          "stroke": {
+            "thickness": {
+              "bottom": 1
+            },
+            "fill": "#333333"
+          },
+          "padding": [
+            24,
+            48
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "tEz0r",
+              "name": "logo",
+              "fill": "#FFFFFF",
+              "content": "EVOLUTION",
+              "fontFamily": "Playfair Display",
+              "fontSize": 22,
+              "fontWeight": "700",
+              "letterSpacing": 6
+            },
+            {
+              "type": "frame",
+              "id": "W65vN",
+              "name": "nav",
+              "gap": 40,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "zwJhy",
+                  "fill": "#FFFFFF",
+                  "content": "SHOP",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal",
+                  "letterSpacing": 1
+                },
+                {
+                  "type": "text",
+                  "id": "JxJJc",
+                  "fill": "#FFFFFF",
+                  "content": "COLLECTIONS",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal",
+                  "letterSpacing": 1
+                },
+                {
+                  "type": "text",
+                  "id": "eNP44",
+                  "fill": "#FFFFFF",
+                  "content": "ABOUT",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal",
+                  "letterSpacing": 1
+                },
+                {
+                  "type": "text",
+                  "id": "bMbTi",
+                  "fill": "#FFFFFF",
+                  "content": "CONTACT",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal",
+                  "letterSpacing": 1
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "xrxv9",
+              "name": "cartIcon",
+              "fill": "#FFFFFF",
+              "content": "CART (0)",
+              "fontFamily": "Inter",
+              "fontSize": 14,
+              "fontWeight": "normal",
+              "letterSpacing": 1
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "yhqYi",
+          "name": "hero",
+          "width": "fill_container",
+          "height": 742,
+          "fill": {
+            "type": "image",
+            "enabled": true,
+            "url": "images/generated-1778064313440.png",
+            "mode": "fill"
+          },
+          "layout": "vertical",
+          "children": [
+            {
+              "type": "frame",
+              "id": "VW10z",
+              "layoutPosition": "absolute",
+              "x": 0,
+              "y": 0,
+              "name": "overlay",
+              "width": 1440,
+              "height": 900,
+              "fill": "#00000080"
+            },
+            {
+              "type": "frame",
+              "id": "R2BS6",
+              "name": "content",
+              "width": "fill_container",
+              "height": "fill_container",
+              "layout": "vertical",
+              "gap": 24,
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "rLI6H",
+                  "name": "heroText",
+                  "layout": "vertical",
+                  "gap": 16,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Whw4e",
+                      "fill": "#FFFFFF",
+                      "content": "EVOLUTION",
+                      "textAlign": "center",
+                      "fontFamily": "Playfair Display",
+                      "fontSize": 16,
+                      "fontWeight": "normal",
+                      "letterSpacing": 6
+                    },
+                    {
+                      "type": "text",
+                      "id": "CyFdq",
+                      "fill": "#999999",
+                      "content": "LUXURY REDEFINED",
+                      "textAlign": "center",
+                      "fontFamily": "Inter",
+                      "fontSize": 11,
+                      "fontWeight": "normal",
+                      "letterSpacing": 3
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "EHGQZ",
+                  "name": "btn",
+                  "fill": "#00000000",
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "#FFFFFF"
+                  },
+                  "padding": [
+                    12,
+                    32
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "RfAw4",
+                      "fill": "#FFFFFF",
+                      "content": "SHOP NOW",
+                      "fontFamily": "Inter",
+                      "fontSize": 11,
+                      "fontWeight": "600",
+                      "letterSpacing": 3
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "Irr50",
+          "name": "featuredBanner",
+          "width": "fill_container",
+          "height": 200,
+          "fill": "#111111",
+          "layout": "vertical",
+          "gap": 16,
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "FTZTo",
+              "name": "bannerText",
+              "fill": "#FFFFFF",
+              "content": "FREE SHIPPING ON ORDERS OVER $500",
+              "fontFamily": "Inter",
+              "fontSize": 16,
+              "fontWeight": "normal",
+              "letterSpacing": 3
+            },
+            {
+              "type": "text",
+              "id": "QRvzq",
+              "name": "bannerSub",
+              "fill": "#666666",
+              "content": "WORLDWIDE DELIVERY • PREMIUM PACKAGING",
+              "fontFamily": "Inter",
+              "fontSize": 12,
+              "fontWeight": "normal",
+              "letterSpacing": 2
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "M8Kk0",
+          "name": "productsSection",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 40,
+          "padding": [
+            60,
+            120
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "ASY3E",
+              "name": "featuredProd",
+              "width": "fill_container",
+              "height": 600,
+              "cornerRadius": 2,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "zW3yG",
+                  "name": "featImg",
+                  "width": 800,
+                  "height": 600,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "./images/generated-1778069443123.png",
+                    "mode": "fill"
+                  },
+                  "cornerRadius": 2
+                },
+                {
+                  "type": "frame",
+                  "id": "sMOQ1",
+                  "name": "featInfo",
+                  "width": 421,
+                  "height": 600,
+                  "fill": "#111111",
+                  "cornerRadius": 2,
+                  "layout": "vertical",
+                  "gap": 24,
+                  "padding": [
+                    80,
+                    60
+                  ],
+                  "justifyContent": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "zYVQL",
+                      "fill": "#666666",
+                      "content": "FEATURED",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal",
+                      "letterSpacing": 4
+                    },
+                    {
+                      "type": "text",
+                      "id": "FU9ds",
+                      "fill": "#FFFFFF",
+                      "textGrowth": "fixed-width",
+                      "width": 257,
+                      "content": "Oversized Leather Jacket",
+                      "fontFamily": "Playfair Display",
+                      "fontSize": 36,
+                      "fontWeight": "normal",
+                      "letterSpacing": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "uhJTB",
+                      "fill": "#999999",
+                      "textGrowth": "fixed-width",
+                      "width": 318,
+                      "content": "Handcrafted from premium Italian leather with\n asymmetric zip closure and quilted lining.",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Oo9jD",
+                      "fill": "#FFFFFF",
+                      "content": "$2,450",
+                      "fontFamily": "Inter",
+                      "fontSize": 24,
+                      "fontWeight": "normal",
+                      "letterSpacing": 2
+                    },
+                    {
+                      "type": "frame",
+                      "id": "SqJWo",
+                      "name": "featBtn",
+                      "stroke": {
+                        "thickness": 1,
+                        "fill": "#FFFFFF"
+                      },
+                      "padding": [
+                        12,
+                        32
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "hCsAM",
+                          "fill": "#FFFFFF",
+                          "content": "SHOP NOW",
+                          "fontFamily": "Inter",
+                          "fontSize": 12,
+                          "fontWeight": "normal",
+                          "letterSpacing": 2
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "YCW6J",
+              "name": "smallGrid",
+              "width": "fill_container",
+              "cornerRadius": 2,
+              "gap": 16,
+              "justifyContent": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "pHNHF",
+                  "name": "small1",
+                  "width": 280,
+                  "cornerRadius": 2,
+                  "layout": "vertical",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "YBnI6",
+                      "name": "small1img",
+                      "width": 280,
+                      "height": 350,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "./images/generated-1778069436148.png",
+                        "mode": "fill"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "id": "NoKJk",
+                      "fill": "#FFFFFF",
+                      "content": "Wool Overcoat",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal",
+                      "letterSpacing": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "cqg68",
+                      "fill": "#666666",
+                      "content": "$3,200",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "c6PGfj",
+                  "name": "small2",
+                  "width": 280,
+                  "cornerRadius": 2,
+                  "layout": "vertical",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "gwGyI",
+                      "name": "small2img",
+                      "width": 280,
+                      "height": 350,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "./images/generated-1778069436258.png",
+                        "mode": "fill"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "id": "d3VbX",
+                      "fill": "#FFFFFF",
+                      "content": "Silk Evening Dress",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal",
+                      "letterSpacing": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "wN2xE",
+                      "fill": "#666666",
+                      "content": "$1,890",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "V7nYQQ",
+                  "name": "small3",
+                  "width": 280,
+                  "cornerRadius": 2,
+                  "layout": "vertical",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "stidd",
+                      "name": "small3img",
+                      "width": 280,
+                      "height": 350,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "./images/generated-1778069439970.png",
+                        "mode": "fill"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "id": "jJgKH",
+                      "fill": "#FFFFFF",
+                      "content": "Cashmere Scarf",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal",
+                      "letterSpacing": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "TjMi2",
+                      "fill": "#666666",
+                      "content": "$890",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "U7qQRL",
+                  "name": "small4",
+                  "width": 280,
+                  "cornerRadius": 2,
+                  "layout": "vertical",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "CF7Bs",
+                      "name": "small4img",
+                      "width": 280,
+                      "height": 350,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "./images/generated-1778069439922.png",
+                        "mode": "fill"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "id": "Y5FoG",
+                      "fill": "#FFFFFF",
+                      "content": "Tailored Suit",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal",
+                      "letterSpacing": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "J38HK",
+                      "fill": "#666666",
+                      "content": "$4,200",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "P85Uec",
+          "name": "aboutNew",
+          "width": "fill_container",
+          "height": 500,
+          "cornerRadius": 2,
+          "children": [
+            {
+              "type": "frame",
+              "id": "z0yTiF",
+              "name": "aboutImgLeft",
+              "width": 720,
+              "height": 500,
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "./images/generated-1778066601931.png",
+                "mode": "fill"
+              },
+              "cornerRadius": 2
+            },
+            {
+              "type": "frame",
+              "id": "w7aJHV",
+              "name": "aboutRight",
+              "width": 720,
+              "height": 500,
+              "fill": "#111111",
+              "cornerRadius": 2,
+              "layout": "vertical",
+              "gap": 24,
+              "padding": [
+                80,
+                60
+              ],
+              "justifyContent": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "UpcQ5",
+                  "fill": "#FFFFFF",
+                  "content": "OUR STORY",
+                  "fontFamily": "Playfair Display",
+                  "fontSize": 32,
+                  "fontWeight": "normal",
+                  "letterSpacing": 4
+                },
+                {
+                  "type": "text",
+                  "id": "vAfzT",
+                  "fill": "#999999",
+                  "textGrowth": "fixed-width",
+                  "width": 500,
+                  "content": "Founded on the principles of uncompromising quality and avant-garde design, Evolution represents the pinnacle of luxury fashion.",
+                  "lineHeight": 1.8,
+                  "fontFamily": "Inter",
+                  "fontSize": 15,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "agecM",
+                  "fill": "#999999",
+                  "textGrowth": "fixed-width",
+                  "width": 500,
+                  "content": "Each piece is meticulously crafted using the finest materials sourced from around the world.",
+                  "lineHeight": 1.8,
+                  "fontFamily": "Inter",
+                  "fontSize": 15,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "FLTHC",
+                  "name": "aboutBtn",
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "#FFFFFF"
+                  },
+                  "padding": [
+                    12,
+                    32
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "uus4K",
+                      "fill": "#FFFFFF",
+                      "content": "READ MORE",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal",
+                      "letterSpacing": 2
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "w7XLmq",
+          "name": "testimonialsSection",
+          "width": "fill_container",
+          "fill": "#111111",
+          "layout": "vertical",
+          "gap": 40,
+          "padding": [
+            60,
+            120
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "ukKTd",
+              "name": "testTitle",
+              "fill": "#FFFFFF",
+              "content": "CLIENT TESTIMONIALS",
+              "textAlign": "center",
+              "fontFamily": "Playfair Display",
+              "fontSize": 32,
+              "fontWeight": "700",
+              "letterSpacing": 4
+            },
+            {
+              "type": "frame",
+              "id": "cA79d",
+              "name": "testGrid",
+              "width": "fill_container",
+              "gap": 32,
+              "justifyContent": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "w3SkBR",
+                  "name": "test1",
+                  "width": 360,
+                  "fill": "#0A0A0A",
+                  "cornerRadius": 2,
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "#333333"
+                  },
+                  "layout": "vertical",
+                  "gap": 24,
+                  "padding": 48,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "TJZkx",
+                      "fill": "#FFFFFF",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "\"THE CRAFTSMANSHIP IS UNPARALLELED. EVERY STITCH TELLS A STORY OF PERFECTION.\"",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Inter",
+                      "fontSize": 16,
+                      "fontWeight": "normal",
+                      "letterSpacing": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "Mmrln",
+                      "fill": "#666666",
+                      "content": "— ALEXANDRA VOSS",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal",
+                      "letterSpacing": 2
+                    },
+                    {
+                      "type": "frame",
+                      "id": "l39s1M",
+                      "name": "avatar1",
+                      "width": 60,
+                      "height": 60,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "./images/generated-1778064732543.png",
+                        "mode": "fill"
+                      },
+                      "cornerRadius": 30
+                    },
+                    {
+                      "type": "text",
+                      "id": "V32mrm",
+                      "name": "stars1",
+                      "fill": "#FFFFFF",
+                      "content": "★★★★★",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "aV9Aa",
+                  "name": "test2",
+                  "width": 360,
+                  "fill": "#0A0A0A",
+                  "cornerRadius": 2,
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "#333333"
+                  },
+                  "layout": "vertical",
+                  "gap": 24,
+                  "padding": 48,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "h81cJ",
+                      "fill": "#FFFFFF",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "\"EVOLUTION HAS COMPLETELY TRANSFORMED MY APPROACH TO LUXURY FASHION. ABSOLUTELY EXTRAORDINARY.\"",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Inter",
+                      "fontSize": 16,
+                      "fontWeight": "normal",
+                      "letterSpacing": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "aZ4jr",
+                      "fill": "#666666",
+                      "content": "— MARCUS CHEN",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal",
+                      "letterSpacing": 2
+                    },
+                    {
+                      "type": "frame",
+                      "id": "Yf43h",
+                      "name": "avatar2",
+                      "width": 60,
+                      "height": 60,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "./images/generated-1778064734331.png",
+                        "mode": "fill"
+                      },
+                      "cornerRadius": 30
+                    },
+                    {
+                      "type": "text",
+                      "id": "yRIoe",
+                      "name": "stars2",
+                      "fill": "#FFFFFF",
+                      "content": "★★★★★",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "N92ID",
+                  "name": "test3",
+                  "width": 360,
+                  "fill": "#0A0A0A",
+                  "cornerRadius": 2,
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "#333333"
+                  },
+                  "layout": "vertical",
+                  "gap": 24,
+                  "padding": 48,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "PV5i4",
+                      "fill": "#FFFFFF",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "\"THE ATTENTION TO DETAIL IS MIND-BLOWING. THIS IS TRUE LUXURY.\"",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Inter",
+                      "fontSize": 16,
+                      "fontWeight": "normal",
+                      "letterSpacing": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "vbBXT",
+                      "fill": "#666666",
+                      "content": "— ISABELLA ROMERO",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal",
+                      "letterSpacing": 2
+                    },
+                    {
+                      "type": "frame",
+                      "id": "xreBf",
+                      "name": "avatar3",
+                      "width": 60,
+                      "height": 60,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "./images/generated-1778064735858.png",
+                        "mode": "fill"
+                      },
+                      "cornerRadius": 30
+                    },
+                    {
+                      "type": "text",
+                      "id": "H5c2x",
+                      "name": "stars3",
+                      "fill": "#FFFFFF",
+                      "content": "★★★★★",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "hk62w",
+          "name": "newsletter",
+          "width": "fill_container",
+          "fill": "#111111",
+          "cornerRadius": 2,
+          "layout": "vertical",
+          "gap": 32,
+          "padding": [
+            80,
+            120
+          ],
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "iH4I4",
+              "name": "newsTitle",
+              "fill": "#FFFFFF",
+              "content": "JOIN THE EVOLUTION",
+              "textAlign": "center",
+              "fontFamily": "Playfair Display",
+              "fontSize": 40,
+              "fontWeight": "900",
+              "letterSpacing": 4
+            },
+            {
+              "type": "text",
+              "id": "uC9bj",
+              "name": "newsSub",
+              "fill": "#666666",
+              "textGrowth": "fixed-width",
+              "width": 500,
+              "content": "SUBSCRIBE FOR EXCLUSIVE ACCESS TO NEW COLLECTIONS AND LIMITED EDITIONS",
+              "textAlign": "center",
+              "fontFamily": "Inter",
+              "fontSize": 13,
+              "fontWeight": "normal",
+              "letterSpacing": 1
+            },
+            {
+              "type": "frame",
+              "id": "Q2hZp",
+              "name": "newsBtn",
+              "fill": "#FFFFFF",
+              "cornerRadius": 2,
+              "stroke": {
+                "thickness": 1,
+                "fill": "#0A0A0A"
+              },
+              "padding": [
+                16,
+                48
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "Y7UgY",
+                  "fill": "#0A0A0A",
+                  "content": "SUBSCRIBE",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal",
+                  "letterSpacing": 3
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "h1v7T",
+          "name": "homeFooterNew",
+          "width": "fill_container",
+          "fill": "#0A0A0A",
+          "stroke": {
+            "thickness": {
+              "top": 1
+            },
+            "fill": "#333333"
+          },
+          "padding": [
+            32,
+            48
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "fSn7j",
+              "fill": "#FFFFFF",
+              "content": "EVOLUTION",
+              "fontFamily": "Playfair Display",
+              "fontSize": 14,
+              "fontWeight": "normal",
+              "letterSpacing": 4
+            },
+            {
+              "type": "frame",
+              "id": "qaUQj",
+              "name": "homeFooterNav",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "xJ1zc",
+                  "fill": "#666666",
+                  "content": "Privacy",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "normal",
+                  "letterSpacing": 1
+                },
+                {
+                  "type": "text",
+                  "id": "fqvTI",
+                  "fill": "#666666",
+                  "content": "Terms",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "normal",
+                  "letterSpacing": 1
+                },
+                {
+                  "type": "text",
+                  "id": "ZEStW",
+                  "fill": "#666666",
+                  "content": "Contact",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "normal",
+                  "letterSpacing": 1
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "tDnp5",
+      "x": 3098,
+      "y": 0,
+      "name": "Product Detail",
+      "width": 1440,
+      "height": 2476,
+      "fill": "#0A0A0A",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "BCQFv",
+          "name": "prodHeader",
+          "width": "fill_container",
+          "height": 80,
+          "padding": [
+            32,
+            48
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "SaTIw",
+              "name": "prodLogo",
+              "fill": "#FFFFFF",
+              "content": "EVOLUTION",
+              "fontFamily": "Inter",
+              "fontSize": 20,
+              "fontWeight": "700",
+              "letterSpacing": 4
+            },
+            {
+              "type": "frame",
+              "id": "b066gc",
+              "name": "prodNav",
+              "gap": 40,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "Ie6j5",
+                  "fill": "#FFFFFF",
+                  "content": "SHOP",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal",
+                  "letterSpacing": 1
+                },
+                {
+                  "type": "text",
+                  "id": "VKXOR",
+                  "fill": "#FFFFFF",
+                  "content": "COLLECTIONS",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal",
+                  "letterSpacing": 1
+                },
+                {
+                  "type": "text",
+                  "id": "o4559v",
+                  "fill": "#FFFFFF",
+                  "content": "ABOUT",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal",
+                  "letterSpacing": 1
+                },
+                {
+                  "type": "text",
+                  "id": "W64biF",
+                  "fill": "#FFFFFF",
+                  "content": "CONTACT",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal",
+                  "letterSpacing": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "Q0y8C",
+          "name": "prodDetailNew2",
+          "width": "fill_container",
+          "height": 900,
+          "children": [
+            {
+              "type": "frame",
+              "id": "YqcuS",
+              "name": "prodLeft",
+              "width": 600,
+              "height": 900,
+              "fill": "#0A0A0A",
+              "layout": "vertical",
+              "gap": 24,
+              "padding": 60,
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "a8EZes",
+                  "name": "mainImg",
+                  "width": 480,
+                  "height": 560,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "./images/generated-1778069433281.png",
+                    "mode": "fill"
+                  },
+                  "cornerRadius": 4
+                },
+                {
+                  "type": "frame",
+                  "id": "pnqZW",
+                  "name": "thumbGallery",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "Xgdrz",
+                      "name": "thumb1",
+                      "width": 80,
+                      "height": 80,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "./images/generated-1778069439611.png",
+                        "mode": "fill"
+                      },
+                      "cornerRadius": 4,
+                      "stroke": {
+                        "thickness": 2,
+                        "fill": "#FFFFFF"
+                      }
+                    },
+                    {
+                      "type": "frame",
+                      "id": "wbmY2",
+                      "name": "thumb2",
+                      "width": 80,
+                      "height": 80,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "./images/generated-1778069438463.png",
+                        "mode": "fill"
+                      },
+                      "cornerRadius": 4
+                    },
+                    {
+                      "type": "frame",
+                      "id": "KuOAF",
+                      "name": "thumb3",
+                      "width": 80,
+                      "height": 80,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "./images/generated-1778069438040.png",
+                        "mode": "fill"
+                      },
+                      "cornerRadius": 4
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "V8HLxM",
+              "name": "prodInfo",
+              "width": 840,
+              "height": 900,
+              "fill": "#111111",
+              "layout": "vertical",
+              "gap": 28,
+              "padding": [
+                80,
+                60
+              ],
+              "justifyContent": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "fiH50",
+                  "fill": "#666666",
+                  "content": "OUTERWEAR",
+                  "fontFamily": "Inter",
+                  "fontSize": 11,
+                  "fontWeight": "normal",
+                  "letterSpacing": 3
+                },
+                {
+                  "type": "text",
+                  "id": "U0VCgq",
+                  "fill": "#FFFFFF",
+                  "content": "Oversized Leather Jacket",
+                  "fontFamily": "Playfair Display",
+                  "fontSize": 42,
+                  "fontWeight": "normal",
+                  "letterSpacing": 1
+                },
+                {
+                  "type": "text",
+                  "id": "pCrmT",
+                  "fill": "#FFFFFF",
+                  "content": "$2,450",
+                  "fontFamily": "Inter",
+                  "fontSize": 28,
+                  "fontWeight": "normal",
+                  "letterSpacing": 2
+                },
+                {
+                  "type": "text",
+                  "id": "VpoL6",
+                  "fill": "#999999",
+                  "textGrowth": "fixed-width",
+                  "width": 500,
+                  "content": "Handcrafted from premium Italian leather. Features an oversized silhouette with asymmetric zip closure, quilted lining, and signature hardware.",
+                  "lineHeight": 1.6,
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "Xi2NH",
+                  "name": "sizeSectionNew",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "nxdnz",
+                      "fill": "#666666",
+                      "content": "SELECT SIZE",
+                      "fontFamily": "Inter",
+                      "fontSize": 11,
+                      "fontWeight": "normal",
+                      "letterSpacing": 2
+                    },
+                    {
+                      "type": "frame",
+                      "id": "X1vqcm",
+                      "name": "sizeOptionsNew",
+                      "gap": 12,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "B7RP7",
+                          "name": "sizeS2",
+                          "width": 56,
+                          "height": 48,
+                          "stroke": {
+                            "thickness": 1,
+                            "fill": "#333333"
+                          },
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "ptEFy",
+                              "fill": "#FFFFFF",
+                              "content": "S",
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "normal",
+                              "letterSpacing": 1
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "LWSOT",
+                          "name": "sizeM2",
+                          "width": 56,
+                          "height": 48,
+                          "stroke": {
+                            "thickness": 1,
+                            "fill": "#333333"
+                          },
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "g3X1pT",
+                              "fill": "#FFFFFF",
+                              "content": "M",
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "normal",
+                              "letterSpacing": 1
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "tApEP",
+                          "name": "sizeL2",
+                          "width": 56,
+                          "height": 48,
+                          "stroke": {
+                            "thickness": 1,
+                            "fill": "#333333"
+                          },
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "ZFrly",
+                              "fill": "#FFFFFF",
+                              "content": "L",
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "normal",
+                              "letterSpacing": 1
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "Vc4c3",
+                          "name": "sizeXL2",
+                          "width": 56,
+                          "height": 48,
+                          "fill": "#FFFFFF",
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "ipwp7",
+                              "fill": "#0A0A0A",
+                              "content": "XL",
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "normal",
+                              "letterSpacing": 1
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "DnYrj",
+                  "name": "addCartBtn2",
+                  "width": "fill_container",
+                  "height": 56,
+                  "fill": "#FFFFFF",
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "G50X6",
+                      "fill": "#0A0A0A",
+                      "content": "ADD TO CART",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal",
+                      "letterSpacing": 3
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "b7L3gt",
+                  "name": "prodDetails2",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "lMyxr",
+                      "fill": "#666666",
+                      "content": "PRODUCT DETAILS",
+                      "fontFamily": "Inter",
+                      "fontSize": 11,
+                      "fontWeight": "normal",
+                      "letterSpacing": 2
+                    },
+                    {
+                      "type": "frame",
+                      "id": "FCVgt",
+                      "name": "materialRow2",
+                      "width": "fill_container",
+                      "stroke": {
+                        "thickness": {
+                          "bottom": 1
+                        },
+                        "fill": "#222222"
+                      },
+                      "padding": [
+                        0,
+                        0,
+                        12,
+                        0
+                      ],
+                      "justifyContent": "space_between",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "EMFpl",
+                          "fill": "#999999",
+                          "content": "Material",
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "Zd55l",
+                          "fill": "#FFFFFF",
+                          "content": "100% Italian Leather",
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "khncH",
+                      "name": "liningRow2",
+                      "width": "fill_container",
+                      "stroke": {
+                        "thickness": {
+                          "bottom": 1
+                        },
+                        "fill": "#222222"
+                      },
+                      "padding": [
+                        0,
+                        0,
+                        12,
+                        0
+                      ],
+                      "justifyContent": "space_between",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "bS9bR",
+                          "fill": "#999999",
+                          "content": "Lining",
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "Y90Eh",
+                          "fill": "#FFFFFF",
+                          "content": "Quilted",
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "GzXQT",
+                      "name": "closureRow2",
+                      "width": "fill_container",
+                      "stroke": {
+                        "thickness": {
+                          "bottom": 1
+                        },
+                        "fill": "#222222"
+                      },
+                      "padding": [
+                        0,
+                        0,
+                        12,
+                        0
+                      ],
+                      "justifyContent": "space_between",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "HAgs5",
+                          "fill": "#999999",
+                          "content": "Closure",
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "DsTGs",
+                          "fill": "#FFFFFF",
+                          "content": "Asymmetric Zip",
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "lgJiF",
+                      "name": "originRow2",
+                      "width": "fill_container",
+                      "justifyContent": "space_between",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "TeVSu",
+                          "fill": "#999999",
+                          "content": "Origin",
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "jAUPt",
+                          "fill": "#FFFFFF",
+                          "content": "Made in Italy",
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "sIzA0",
+          "name": "reviewsSection",
+          "width": "fill_container",
+          "fill": "#0A0A0A",
+          "cornerRadius": 2,
+          "layout": "vertical",
+          "gap": 32,
+          "padding": [
+            60,
+            120
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "Ad2lq",
+              "name": "reviewHeader",
+              "width": "fill_container",
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "Wvl5H",
+                  "fill": "#FFFFFF",
+                  "content": "CUSTOMER REVIEWS",
+                  "fontFamily": "Playfair Display",
+                  "fontSize": 28,
+                  "fontWeight": "normal",
+                  "letterSpacing": 3
+                },
+                {
+                  "type": "frame",
+                  "id": "U0AGK",
+                  "name": "reviewStats",
+                  "gap": 8,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "JzhSK",
+                      "fill": "#FFFFFF",
+                      "content": "★★★★★",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "zfv6Z",
+                      "fill": "#888888",
+                      "content": "4.9 (128 reviews)",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "k4mlB6",
+              "name": "review1New",
+              "width": "fill_container",
+              "fill": "#111111",
+              "cornerRadius": 4,
+              "gap": 24,
+              "padding": 32,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "dLQwi",
+                  "name": "review1Avatar",
+                  "width": 50,
+                  "height": 50,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "./images/generated-1778069434284.png",
+                    "mode": "fill"
+                  },
+                  "cornerRadius": 25
+                },
+                {
+                  "type": "frame",
+                  "id": "y28eJa",
+                  "name": "review1Content",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "DDL83",
+                      "name": "review1Header",
+                      "width": "fill_container",
+                      "justifyContent": "space_between",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "g2t6QF",
+                          "fill": "#FFFFFF",
+                          "content": "Michael R.",
+                          "fontFamily": "Playfair Display",
+                          "fontSize": 15,
+                          "fontWeight": "normal",
+                          "letterSpacing": 1
+                        },
+                        {
+                          "type": "text",
+                          "id": "fJ292",
+                          "fill": "#FFFFFF",
+                          "content": "★★★★★",
+                          "fontFamily": "Inter",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "KxUlY",
+                      "fill": "#AAAAAA",
+                      "textGrowth": "fixed-width",
+                      "width": 700,
+                      "content": "\"Absolutely stunning quality. The leather is incredibly soft and the fit is perfect. This jacket has become my go-to piece for any occasion.\"",
+                      "lineHeight": 1.7,
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "joMUn",
+                      "fill": "#555555",
+                      "content": "Verified Purchase • 2 weeks ago",
+                      "fontFamily": "Inter",
+                      "fontSize": 11,
+                      "fontWeight": "normal",
+                      "letterSpacing": 1
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "x6OHAD",
+              "name": "review2New",
+              "width": "fill_container",
+              "fill": "#111111",
+              "cornerRadius": 4,
+              "gap": 24,
+              "padding": 32,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "NaS3p",
+                  "name": "review2Avatar",
+                  "width": 50,
+                  "height": 50,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "./images/generated-1778069437382.png",
+                    "mode": "fill"
+                  },
+                  "cornerRadius": 25
+                },
+                {
+                  "type": "frame",
+                  "id": "WtFt7",
+                  "name": "review2Content",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "smoHd",
+                      "name": "review2Header",
+                      "width": "fill_container",
+                      "justifyContent": "space_between",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "dD7c1",
+                          "fill": "#FFFFFF",
+                          "content": "Sarah K.",
+                          "fontFamily": "Playfair Display",
+                          "fontSize": 15,
+                          "fontWeight": "normal",
+                          "letterSpacing": 1
+                        },
+                        {
+                          "type": "text",
+                          "id": "lmioH",
+                          "fill": "#FFFFFF",
+                          "content": "★★★★★",
+                          "fontFamily": "Inter",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "ogBNS",
+                      "fill": "#AAAAAA",
+                      "textGrowth": "fixed-width",
+                      "width": 700,
+                      "content": "\"The craftsmanship is unbelievable. Every detail from the stitching to the hardware shows exceptional quality. Worth every penny.\"",
+                      "lineHeight": 1.7,
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "u4z9mr",
+                      "fill": "#555555",
+                      "content": "Verified Purchase • 1 month ago",
+                      "fontFamily": "Inter",
+                      "fontSize": 11,
+                      "fontWeight": "normal",
+                      "letterSpacing": 1
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "SJE0G",
+              "name": "review3New",
+              "width": "fill_container",
+              "fill": "#111111",
+              "cornerRadius": 4,
+              "gap": 24,
+              "padding": 32,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "uw74n",
+                  "name": "review3Avatar",
+                  "width": 50,
+                  "height": 50,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "./images/generated-1778069440647.png",
+                    "mode": "fill"
+                  },
+                  "cornerRadius": 25
+                },
+                {
+                  "type": "frame",
+                  "id": "s1hSg9",
+                  "name": "review3Content",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "NnPnD",
+                      "name": "review3Header",
+                      "width": "fill_container",
+                      "justifyContent": "space_between",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "VjQms",
+                          "fill": "#FFFFFF",
+                          "content": "James L.",
+                          "fontFamily": "Playfair Display",
+                          "fontSize": 15,
+                          "fontWeight": "normal",
+                          "letterSpacing": 1
+                        },
+                        {
+                          "type": "text",
+                          "id": "cLOVA",
+                          "fill": "#FFFFFF",
+                          "content": "★★★★★",
+                          "fontFamily": "Inter",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "HkkyP",
+                      "fill": "#AAAAAA",
+                      "textGrowth": "fixed-width",
+                      "width": 700,
+                      "content": "\"Best investment I've made in my wardrobe. The oversized fit is exactly what I wanted. Already planning to buy another in a different color.\"",
+                      "lineHeight": 1.7,
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "kB1Vj",
+                      "fill": "#555555",
+                      "content": "Verified Purchase • 3 weeks ago",
+                      "fontFamily": "Inter",
+                      "fontSize": 11,
+                      "fontWeight": "normal",
+                      "letterSpacing": 1
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "OVQLI",
+              "name": "loadMoreReviews",
+              "stroke": {
+                "thickness": 1,
+                "fill": "#333333"
+              },
+              "padding": [
+                12,
+                32
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "s477lr",
+                  "fill": "#888888",
+                  "content": "LOAD MORE REVIEWS",
+                  "fontFamily": "Inter",
+                  "fontSize": 11,
+                  "fontWeight": "normal",
+                  "letterSpacing": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "q5RQFU",
+          "name": "relatedSection",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 32,
+          "padding": [
+            80,
+            120
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "RbzJi",
+              "fill": "#FFFFFF",
+              "content": "YOU MAY ALSO LIKE",
+              "fontFamily": "Playfair Display",
+              "fontSize": 24,
+              "fontWeight": "normal",
+              "letterSpacing": 3
+            },
+            {
+              "type": "frame",
+              "id": "Q9clNF",
+              "name": "relatedGrid",
+              "gap": 24,
+              "justifyContent": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "rLSgw",
+                  "name": "rel1",
+                  "width": 260,
+                  "layout": "vertical",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "d0FDF",
+                      "name": "productImage",
+                      "width": 260,
+                      "height": 320,
+                      "fill": "#1A1A1A"
+                    },
+                    {
+                      "type": "text",
+                      "id": "N3aFXi",
+                      "name": "productName",
+                      "fill": "#FFFFFF",
+                      "content": "WOOL OVERCOAT",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "600",
+                      "letterSpacing": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "uIepQ",
+                      "name": "productPrice",
+                      "fill": "#FFFFFF",
+                      "content": "$3,200",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "Upecp",
+                      "name": "relImg1",
+                      "width": 260,
+                      "height": 320,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "./images/generated-1778069534559.png",
+                        "mode": "fill"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "HeWfV",
+                  "name": "rel2",
+                  "width": 260,
+                  "layout": "vertical",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "YhUyv",
+                      "name": "productImage",
+                      "width": 260,
+                      "height": 320,
+                      "fill": "#1A1A1A"
+                    },
+                    {
+                      "type": "text",
+                      "id": "iS1FT",
+                      "name": "productName",
+                      "fill": "#FFFFFF",
+                      "content": "SILK DRESS",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "600",
+                      "letterSpacing": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "CTLtA",
+                      "name": "productPrice",
+                      "fill": "#FFFFFF",
+                      "content": "$1,890",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "bHm6j",
+                      "name": "relImg2",
+                      "width": 260,
+                      "height": 320,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "./images/generated-1778069546297.png",
+                        "mode": "fill"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "X3fWSO",
+                  "name": "rel3",
+                  "width": 260,
+                  "layout": "vertical",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "c9pKC",
+                      "name": "productImage",
+                      "width": 260,
+                      "height": 320,
+                      "fill": "#1A1A1A"
+                    },
+                    {
+                      "type": "text",
+                      "id": "OFL6T",
+                      "name": "productName",
+                      "fill": "#FFFFFF",
+                      "content": "TAILORED SUIT",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "600",
+                      "letterSpacing": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "wxWFa",
+                      "name": "productPrice",
+                      "fill": "#FFFFFF",
+                      "content": "$4,200",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "W0aloY",
+                      "name": "relImg3",
+                      "width": 260,
+                      "height": 320,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "./images/generated-1778069530558.png",
+                        "mode": "fill"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "wj8j2",
+          "name": "prodFooterNew",
+          "width": "fill_container",
+          "fill": "#0A0A0A",
+          "stroke": {
+            "thickness": {
+              "top": 1
+            },
+            "fill": "#333333"
+          },
+          "padding": [
+            32,
+            48
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "cSxf7",
+              "fill": "#FFFFFF",
+              "content": "EVOLUTION",
+              "fontFamily": "Playfair Display",
+              "fontSize": 14,
+              "fontWeight": "normal",
+              "letterSpacing": 4
+            },
+            {
+              "type": "frame",
+              "id": "y3B7p",
+              "name": "prodFootNav",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "NlBYg",
+                  "fill": "#666666",
+                  "content": "Privacy",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "normal",
+                  "letterSpacing": 1
+                },
+                {
+                  "type": "text",
+                  "id": "kg9x1",
+                  "fill": "#666666",
+                  "content": "Terms",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "normal",
+                  "letterSpacing": 1
+                },
+                {
+                  "type": "text",
+                  "id": "wtmCR",
+                  "fill": "#666666",
+                  "content": "Contact",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "normal",
+                  "letterSpacing": 1
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "HJkKi",
+      "x": 4665,
+      "y": 0,
+      "name": "About",
+      "width": 1440,
+      "height": 1645,
+      "fill": "#0A0A0A",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "YYAyR",
+          "name": "aboutHeader",
+          "width": "fill_container",
+          "height": 80,
+          "padding": [
+            32,
+            48
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "m9y6o",
+              "name": "aboutLogo",
+              "fill": "#FFFFFF",
+              "content": "EVOLUTION",
+              "fontFamily": "Inter",
+              "fontSize": 20,
+              "fontWeight": "700",
+              "letterSpacing": 4
+            },
+            {
+              "type": "frame",
+              "id": "b5pTr",
+              "name": "aboutNav",
+              "gap": 40,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "Xppbf",
+                  "fill": "#FFFFFF",
+                  "content": "SHOP",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal",
+                  "letterSpacing": 1
+                },
+                {
+                  "type": "text",
+                  "id": "t4iiC7",
+                  "fill": "#FFFFFF",
+                  "content": "COLLECTIONS",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal",
+                  "letterSpacing": 1
+                },
+                {
+                  "type": "text",
+                  "id": "e7WZjU",
+                  "fill": "#FFFFFF",
+                  "content": "ABOUT",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal",
+                  "letterSpacing": 1
+                },
+                {
+                  "type": "text",
+                  "id": "L1C084",
+                  "fill": "#FFFFFF",
+                  "content": "CONTACT",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal",
+                  "letterSpacing": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "oWlXr",
+          "name": "aboutHeroNew",
+          "width": "fill_container",
+          "height": 600,
+          "layout": "vertical",
+          "gap": 24,
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "pURGN",
+              "layoutPosition": "absolute",
+              "x": 0,
+              "y": 0,
+              "name": "aboutHeroBg",
+              "width": 1440,
+              "height": 600,
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "images/generated-1778064313440.png",
+                "mode": "fill"
+              }
+            },
+            {
+              "type": "frame",
+              "id": "cL5Kn",
+              "layoutPosition": "absolute",
+              "x": 0,
+              "y": 0,
+              "name": "aboutHeroOverlay",
+              "width": 1440,
+              "height": 600,
+              "fill": "#00000099"
+            },
+            {
+              "type": "text",
+              "id": "xv214",
+              "fill": "#FFFFFF",
+              "content": "ABOUT EVOLUTION",
+              "textAlign": "center",
+              "fontFamily": "Playfair Display",
+              "fontSize": 64,
+              "fontWeight": "normal",
+              "letterSpacing": 8
+            },
+            {
+              "type": "text",
+              "id": "Uf0Ke",
+              "fill": "#999999",
+              "content": "Redefining luxury since 2020",
+              "textAlign": "center",
+              "fontFamily": "Inter",
+              "fontSize": 16,
+              "fontWeight": "normal",
+              "letterSpacing": 4
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "Ejy3W",
+          "name": "aboutStory",
+          "width": "fill_container",
+          "height": 500,
+          "cornerRadius": 2,
+          "children": [
+            {
+              "type": "frame",
+              "id": "nczdw",
+              "name": "aboutStoryText",
+              "width": 720,
+              "height": 500,
+              "fill": "#111111",
+              "layout": "vertical",
+              "gap": 20,
+              "padding": [
+                80,
+                60
+              ],
+              "justifyContent": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "I0xPOK",
+                  "fill": "#FFFFFF",
+                  "content": "OUR STORY",
+                  "fontFamily": "Playfair Display",
+                  "fontSize": 28,
+                  "fontWeight": "normal",
+                  "letterSpacing": 4
+                },
+                {
+                  "type": "text",
+                  "id": "SZ7df",
+                  "fill": "#999999",
+                  "textGrowth": "fixed-width",
+                  "width": 500,
+                  "content": "Founded on the principles of uncompromising quality and avant-garde design, Evolution represents the pinnacle of luxury fashion.",
+                  "lineHeight": 1.8,
+                  "fontFamily": "Inter",
+                  "fontSize": 15,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "rMKCw",
+                  "fill": "#999999",
+                  "textGrowth": "fixed-width",
+                  "width": 500,
+                  "content": "Each piece is meticulously crafted using the finest materials sourced from around the world. From Italian leather to Mongolian cashmere, we spare no effort in our pursuit of perfection.",
+                  "lineHeight": 1.8,
+                  "fontFamily": "Inter",
+                  "fontSize": 15,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "trUCK",
+              "name": "aboutStoryImg",
+              "width": 720,
+              "height": 500,
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "./images/generated-1778067455474.png",
+                "mode": "fill"
+              },
+              "cornerRadius": 2
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "Ttz0I",
+          "name": "aboutValues",
+          "width": "fill_container",
+          "cornerRadius": 2,
+          "layout": "vertical",
+          "gap": 48,
+          "padding": [
+            80,
+            120
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "e3LHS",
+              "fill": "#FFFFFF",
+              "content": "OUR VALUES",
+              "fontFamily": "Playfair Display",
+              "fontSize": 32,
+              "fontWeight": "normal",
+              "letterSpacing": 4
+            },
+            {
+              "type": "frame",
+              "id": "RWfFb",
+              "name": "valuesRow",
+              "width": "fill_container",
+              "gap": 32,
+              "justifyContent": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "s4avB",
+                  "name": "val1",
+                  "width": 300,
+                  "layout": "vertical",
+                  "gap": 12,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "XPKox",
+                      "fill": "#FFFFFF",
+                      "content": "01",
+                      "fontFamily": "Playfair Display",
+                      "fontSize": 36,
+                      "fontWeight": "normal",
+                      "letterSpacing": 2
+                    },
+                    {
+                      "type": "text",
+                      "id": "ozSdv",
+                      "fill": "#FFFFFF",
+                      "content": "CRAFTSMANSHIP",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal",
+                      "letterSpacing": 2
+                    },
+                    {
+                      "type": "text",
+                      "id": "WTQIy",
+                      "fill": "#666666",
+                      "textGrowth": "fixed-width",
+                      "width": 250,
+                      "content": "Handcrafted by master artisans with decades of experience",
+                      "textAlign": "center",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "FIvO2",
+                  "name": "val2",
+                  "width": 300,
+                  "layout": "vertical",
+                  "gap": 12,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "zl7FN",
+                      "fill": "#FFFFFF",
+                      "content": "02",
+                      "fontFamily": "Playfair Display",
+                      "fontSize": 36,
+                      "fontWeight": "normal",
+                      "letterSpacing": 2
+                    },
+                    {
+                      "type": "text",
+                      "id": "M5d2Yv",
+                      "fill": "#FFFFFF",
+                      "content": "MATERIALS",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal",
+                      "letterSpacing": 2
+                    },
+                    {
+                      "type": "text",
+                      "id": "S4nCFy",
+                      "fill": "#666666",
+                      "textGrowth": "fixed-width",
+                      "width": 250,
+                      "content": "Only the finest materials sourced from around the world",
+                      "textAlign": "center",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "c8NYQ",
+                  "name": "val3",
+                  "width": 300,
+                  "layout": "vertical",
+                  "gap": 12,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "TFHAo",
+                      "fill": "#FFFFFF",
+                      "content": "03",
+                      "fontFamily": "Playfair Display",
+                      "fontSize": 36,
+                      "fontWeight": "normal",
+                      "letterSpacing": 2
+                    },
+                    {
+                      "type": "text",
+                      "id": "ezssv",
+                      "fill": "#FFFFFF",
+                      "content": "SUSTAINABILITY",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal",
+                      "letterSpacing": 2
+                    },
+                    {
+                      "type": "text",
+                      "id": "eY72Z",
+                      "fill": "#666666",
+                      "textGrowth": "fixed-width",
+                      "width": 250,
+                      "content": "Committed to ethical and sustainable production practices",
+                      "textAlign": "center",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "SFTEH",
+          "name": "aboutFooterFinal",
+          "width": "fill_container",
+          "height": 84,
+          "fill": "#0A0A0A",
+          "stroke": {
+            "thickness": {
+              "top": 1
+            },
+            "fill": "#333333"
+          },
+          "padding": [
+            32,
+            48
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "bSIJd",
+              "fill": "#FFFFFF",
+              "content": "EVOLUTION",
+              "fontFamily": "Playfair Display",
+              "fontSize": 14,
+              "fontWeight": "normal",
+              "letterSpacing": 4
+            },
+            {
+              "type": "frame",
+              "id": "yWbVH",
+              "name": "aboutFootNavFinal",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "Y3Hd0E",
+                  "fill": "#666666",
+                  "content": "Privacy",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "normal",
+                  "letterSpacing": 1
+                },
+                {
+                  "type": "text",
+                  "id": "BEojA",
+                  "fill": "#666666",
+                  "content": "Terms",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "normal",
+                  "letterSpacing": 1
+                },
+                {
+                  "type": "text",
+                  "id": "Pgg2f",
+                  "fill": "#666666",
+                  "content": "Contact",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "normal",
+                  "letterSpacing": 1
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "r6iek",
+      "x": 6246,
+      "y": 0,
+      "name": "Contact",
+      "width": 1440,
+      "height": 1300,
+      "fill": "#0A0A0A",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "y7tH7O",
+          "name": "contactHeader",
+          "width": "fill_container",
+          "height": 80,
+          "padding": [
+            32,
+            48
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "eOsyR",
+              "name": "contactLogo",
+              "fill": "#FFFFFF",
+              "content": "EVOLUTION",
+              "fontFamily": "Inter",
+              "fontSize": 20,
+              "fontWeight": "700",
+              "letterSpacing": 4
+            },
+            {
+              "type": "frame",
+              "id": "gm2I8",
+              "name": "contactNav",
+              "gap": 40,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "MKZ2r",
+                  "fill": "#FFFFFF",
+                  "content": "SHOP",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal",
+                  "letterSpacing": 1
+                },
+                {
+                  "type": "text",
+                  "id": "nYRGy",
+                  "fill": "#FFFFFF",
+                  "content": "COLLECTIONS",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal",
+                  "letterSpacing": 1
+                },
+                {
+                  "type": "text",
+                  "id": "GfAXD",
+                  "fill": "#FFFFFF",
+                  "content": "ABOUT",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal",
+                  "letterSpacing": 1
+                },
+                {
+                  "type": "text",
+                  "id": "ZBVxa",
+                  "fill": "#FFFFFF",
+                  "content": "CONTACT",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal",
+                  "letterSpacing": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "W4imn",
+          "name": "contactVisual",
+          "width": "fill_container",
+          "height": 400,
+          "fill": "#111111",
+          "children": [
+            {
+              "type": "frame",
+              "id": "Ki2gq",
+              "name": "contactImg",
+              "width": "fill_container",
+              "height": 400,
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "images/generated-1777985306800.png",
+                "mode": "fill"
+              }
+            },
+            {
+              "type": "frame",
+              "id": "buooL",
+              "layoutPosition": "absolute",
+              "x": 0,
+              "y": 0,
+              "name": "contactImgOverlay",
+              "width": 1440,
+              "height": 400,
+              "fill": "#00000080"
+            },
+            {
+              "type": "frame",
+              "id": "e1NiE8",
+              "layoutPosition": "absolute",
+              "x": 0,
+              "y": 0,
+              "name": "contactCenterText",
+              "width": 1440,
+              "height": 400,
+              "layout": "vertical",
+              "gap": 16,
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "F0aiB",
+                  "fill": "#FFFFFF",
+                  "content": "GET IN TOUCH",
+                  "textAlign": "center",
+                  "fontFamily": "Playfair Display",
+                  "fontSize": 56,
+                  "fontWeight": "normal",
+                  "letterSpacing": 8
+                },
+                {
+                  "type": "text",
+                  "id": "H9DQ8e",
+                  "fill": "#FFFFFF",
+                  "content": "NEW YORK • PARIS • MILAN",
+                  "textAlign": "center",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal",
+                  "letterSpacing": 4
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "i0dLw",
+          "name": "contactContent",
+          "width": "fill_container",
+          "cornerRadius": 2,
+          "gap": 100,
+          "padding": [
+            80,
+            120
+          ],
+          "justifyContent": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "D8gaae",
+              "name": "contactInfo",
+              "width": 400,
+              "layout": "vertical",
+              "gap": 32,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "LwXAC",
+                  "name": "contactDecor",
+                  "width": 40,
+                  "height": 1,
+                  "fill": "#333333"
+                },
+                {
+                  "type": "text",
+                  "id": "aQ668",
+                  "name": "contactTitle",
+                  "fill": "#FFFFFF",
+                  "content": "CONTACT INFORMATION",
+                  "fontFamily": "Playfair Display",
+                  "fontSize": 24,
+                  "fontWeight": "700",
+                  "letterSpacing": 3
+                },
+                {
+                  "type": "frame",
+                  "id": "J7cZfc",
+                  "name": "emailSection",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "PaeGr",
+                      "fill": "#666666",
+                      "content": "EMAIL",
+                      "fontFamily": "Inter",
+                      "fontSize": 11,
+                      "fontWeight": "normal",
+                      "letterSpacing": 2
+                    },
+                    {
+                      "type": "text",
+                      "id": "d7MuJ",
+                      "fill": "#FFFFFF",
+                      "content": "hello@evolution.com",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Qm76n",
+                  "name": "phoneSection",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "fR4ca",
+                      "fill": "#666666",
+                      "content": "PHONE",
+                      "fontFamily": "Inter",
+                      "fontSize": 11,
+                      "fontWeight": "normal",
+                      "letterSpacing": 2
+                    },
+                    {
+                      "type": "text",
+                      "id": "xRAEw",
+                      "fill": "#FFFFFF",
+                      "content": "+1 (555) 123-4567",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "PiZXu",
+                  "name": "addressSection",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "rcM7x",
+                      "fill": "#666666",
+                      "content": "ADDRESS",
+                      "fontFamily": "Inter",
+                      "fontSize": 11,
+                      "fontWeight": "normal",
+                      "letterSpacing": 2
+                    },
+                    {
+                      "type": "text",
+                      "id": "hDnig",
+                      "fill": "#FFFFFF",
+                      "textGrowth": "fixed-width",
+                      "width": 400,
+                      "content": "123 Luxury Avenue\nNew York, NY 10001",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "v8Owlc",
+              "name": "contactForm",
+              "width": 500,
+              "cornerRadius": 2,
+              "layout": "vertical",
+              "gap": 28,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "beVuk",
+                  "name": "formTitle",
+                  "fill": "#FFFFFF",
+                  "content": "SEND US A MESSAGE",
+                  "fontFamily": "Playfair Display",
+                  "fontSize": 28,
+                  "fontWeight": "700",
+                  "letterSpacing": 3
+                },
+                {
+                  "type": "frame",
+                  "id": "Nm32r",
+                  "name": "nameInput",
+                  "width": "fill_container",
+                  "cornerRadius": 2,
+                  "layout": "vertical",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "fR5ml",
+                      "fill": "#666666",
+                      "content": "NAME",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal",
+                      "letterSpacing": 2
+                    },
+                    {
+                      "type": "frame",
+                      "id": "i1qnPg",
+                      "width": "fill_container",
+                      "height": 52,
+                      "fill": "#111111",
+                      "stroke": {
+                        "thickness": 1,
+                        "fill": "#333333"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "YXPZ8",
+                  "name": "emailInput",
+                  "width": "fill_container",
+                  "cornerRadius": 2,
+                  "layout": "vertical",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "NLHzB",
+                      "fill": "#666666",
+                      "content": "EMAIL",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal",
+                      "letterSpacing": 2
+                    },
+                    {
+                      "type": "frame",
+                      "id": "XWD3V",
+                      "width": "fill_container",
+                      "height": 52,
+                      "fill": "#111111",
+                      "stroke": {
+                        "thickness": 1,
+                        "fill": "#333333"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "OFjWQ",
+                  "name": "messageInput",
+                  "width": "fill_container",
+                  "cornerRadius": 2,
+                  "layout": "vertical",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "MUXMU",
+                      "fill": "#666666",
+                      "content": "MESSAGE",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal",
+                      "letterSpacing": 2
+                    },
+                    {
+                      "type": "frame",
+                      "id": "aALlX",
+                      "width": "fill_container",
+                      "height": 140,
+                      "fill": "#111111",
+                      "stroke": {
+                        "thickness": 1,
+                        "fill": "#333333"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "r3cyr",
+                  "name": "submitBtn",
+                  "width": "fill_container",
+                  "height": 56,
+                  "fill": "#FFFFFF",
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "lc2wK",
+                      "fill": "#0A0A0A",
+                      "content": "SEND MESSAGE",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "600",
+                      "letterSpacing": 3
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "I4ex9S",
+          "name": "contactFooterFix",
+          "width": "fill_container",
+          "fill": "#0A0A0A",
+          "stroke": {
+            "thickness": {
+              "top": 1
+            },
+            "fill": "#333333"
+          },
+          "padding": [
+            32,
+            48
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "gmk4j",
+              "fill": "#FFFFFF",
+              "content": "EVOLUTION",
+              "fontFamily": "Playfair Display",
+              "fontSize": 14,
+              "fontWeight": "normal",
+              "letterSpacing": 4
+            },
+            {
+              "type": "frame",
+              "id": "W2jqn",
+              "name": "contactFootNavFix",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "UHIzc",
+                  "fill": "#666666",
+                  "content": "Privacy",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "normal",
+                  "letterSpacing": 1
+                },
+                {
+                  "type": "text",
+                  "id": "LFang",
+                  "fill": "#666666",
+                  "content": "Terms",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "normal",
+                  "letterSpacing": 1
+                },
+                {
+                  "type": "text",
+                  "id": "UEzkb",
+                  "fill": "#666666",
+                  "content": "Contact",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "normal",
+                  "letterSpacing": 1
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "r41E6j",
+      "x": 1545,
+      "y": 0,
+      "name": "Gallery",
+      "width": 1440,
+      "height": 2122,
+      "fill": "#0A0A0A",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "XBiEc",
+          "name": "galleryHeader",
+          "width": "fill_container",
+          "height": 80,
+          "fill": "#0A0A0A",
+          "stroke": {
+            "thickness": {
+              "bottom": 1
+            },
+            "fill": "#333333"
+          },
+          "padding": [
+            32,
+            48
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "YrrPg",
+              "name": "galleryLogo",
+              "fill": "#FFFFFF",
+              "content": "EVOLUTION",
+              "fontFamily": "Inter",
+              "fontSize": 24,
+              "fontWeight": "700",
+              "letterSpacing": 6
+            },
+            {
+              "type": "frame",
+              "id": "I7COq1",
+              "name": "galleryNav",
+              "gap": 40,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "IlDL6",
+                  "fill": "#FFFFFF",
+                  "content": "SHOP",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal",
+                  "letterSpacing": 1
+                },
+                {
+                  "type": "text",
+                  "id": "kOHL2",
+                  "fill": "#FFFFFF",
+                  "content": "GALLERY",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal",
+                  "letterSpacing": 1
+                },
+                {
+                  "type": "text",
+                  "id": "pRq78",
+                  "fill": "#FFFFFF",
+                  "content": "ABOUT",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal",
+                  "letterSpacing": 1
+                },
+                {
+                  "type": "text",
+                  "id": "RVZ9i",
+                  "fill": "#FFFFFF",
+                  "content": "CONTACT",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal",
+                  "letterSpacing": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "eDDtG",
+          "name": "masonryGallery",
+          "width": "fill_container",
+          "gap": 16,
+          "padding": [
+            40,
+            120
+          ],
+          "justifyContent": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "osu8x",
+              "name": "col1",
+              "width": 340,
+              "cornerRadius": 2,
+              "layout": "vertical",
+              "gap": 16,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "dEahI",
+                  "name": "img1",
+                  "clip": true,
+                  "width": 340,
+                  "height": 420,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "./images/generated-1778069440485.png",
+                    "mode": "fill"
+                  }
+                },
+                {
+                  "type": "frame",
+                  "id": "x0EuYt",
+                  "name": "img2",
+                  "clip": true,
+                  "width": 340,
+                  "height": 280,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "./images/generated-1778069438694.png",
+                    "mode": "fill"
+                  }
+                },
+                {
+                  "type": "frame",
+                  "id": "VwmnC",
+                  "name": "img3",
+                  "clip": true,
+                  "width": 340,
+                  "height": 380,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "./images/generated-1778069444089.png",
+                    "mode": "fill"
+                  }
+                },
+                {
+                  "type": "frame",
+                  "id": "qa6bh",
+                  "name": "img4",
+                  "clip": true,
+                  "width": 340,
+                  "height": 320,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "./images/generated-1778069430404.png",
+                    "mode": "fill"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "pnUoM",
+              "name": "col2",
+              "width": 340,
+              "cornerRadius": 2,
+              "layout": "vertical",
+              "gap": 16,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "coQQf",
+                  "name": "img5",
+                  "clip": true,
+                  "width": 340,
+                  "height": 320,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "./images/generated-1778069434045.png",
+                    "mode": "fill"
+                  }
+                },
+                {
+                  "type": "frame",
+                  "id": "RWYPH",
+                  "name": "img6",
+                  "clip": true,
+                  "width": 340,
+                  "height": 480,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "./images/generated-1778069435021.png",
+                    "mode": "fill"
+                  }
+                },
+                {
+                  "type": "frame",
+                  "id": "VEr8Y",
+                  "name": "img7",
+                  "clip": true,
+                  "width": 340,
+                  "height": 260,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "./images/generated-1778069433847.png",
+                    "mode": "fill"
+                  }
+                },
+                {
+                  "type": "frame",
+                  "id": "uvUzL",
+                  "name": "img8",
+                  "clip": true,
+                  "width": 340,
+                  "height": 400,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "./images/generated-1778069432919.png",
+                    "mode": "fill"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "W6liG",
+              "name": "col3",
+              "width": 340,
+              "cornerRadius": 2,
+              "layout": "vertical",
+              "gap": 16,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "LvPOI",
+                  "name": "img9",
+                  "clip": true,
+                  "width": 340,
+                  "height": 380,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "./images/generated-1778069429054.png",
+                    "mode": "fill"
+                  }
+                },
+                {
+                  "type": "frame",
+                  "id": "iqFrn",
+                  "name": "img10",
+                  "clip": true,
+                  "width": 340,
+                  "height": 300,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "./images/generated-1778069435542.png",
+                    "mode": "fill"
+                  }
+                },
+                {
+                  "type": "frame",
+                  "id": "lpDXT",
+                  "name": "img11",
+                  "clip": true,
+                  "width": 340,
+                  "height": 440,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "./images/generated-1778069432671.png",
+                    "mode": "fill"
+                  }
+                },
+                {
+                  "type": "frame",
+                  "id": "hbyza",
+                  "name": "img12",
+                  "clip": true,
+                  "width": 340,
+                  "height": 280,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "./images/generated-1778069443667.png",
+                    "mode": "fill"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "bIBus",
+          "name": "galleryBottomNew",
+          "width": "fill_container",
+          "fill": "#0A0A0A",
+          "cornerRadius": 2,
+          "layout": "vertical",
+          "gap": 32,
+          "padding": [
+            100,
+            120
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "UyK5s",
+              "fill": "#FFFFFF",
+              "content": "STAY CONNECTED",
+              "textAlign": "center",
+              "fontFamily": "Playfair Display",
+              "fontSize": 36,
+              "fontWeight": "normal",
+              "letterSpacing": 4
+            },
+            {
+              "type": "text",
+              "id": "lM73S",
+              "fill": "#666666",
+              "textGrowth": "fixed-width",
+              "width": 500,
+              "content": "Follow us for exclusive behind-the-scenes content and early access to new collections.",
+              "textAlign": "center",
+              "fontFamily": "Inter",
+              "fontSize": 14,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "r3ICY1",
+              "name": "socialLinks",
+              "gap": 32,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "o9ESVU",
+                  "fill": "#FFFFFF",
+                  "content": "INSTAGRAM",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "normal",
+                  "letterSpacing": 2
+                },
+                {
+                  "type": "text",
+                  "id": "EtGEo",
+                  "fill": "#FFFFFF",
+                  "content": "FACEBOOK",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "normal",
+                  "letterSpacing": 2
+                },
+                {
+                  "type": "text",
+                  "id": "AOJmp",
+                  "fill": "#FFFFFF",
+                  "content": "TWITTER",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "normal",
+                  "letterSpacing": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "Qq1Yh",
+          "name": "galleryFooterFinal",
+          "width": "fill_container",
+          "fill": "#0A0A0A",
+          "stroke": {
+            "thickness": {
+              "top": 1
+            },
+            "fill": "#333333"
+          },
+          "padding": [
+            32,
+            48
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "Botq1",
+              "fill": "#FFFFFF",
+              "content": "EVOLUTION",
+              "fontFamily": "Playfair Display",
+              "fontSize": 14,
+              "fontWeight": "normal",
+              "letterSpacing": 4
+            },
+            {
+              "type": "frame",
+              "id": "QJmsN",
+              "name": "galFootNavFinal",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "gnYIJ",
+                  "fill": "#666666",
+                  "content": "Privacy",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "normal",
+                  "letterSpacing": 1
+                },
+                {
+                  "type": "text",
+                  "id": "e0UCw",
+                  "fill": "#666666",
+                  "content": "Terms",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "normal",
+                  "letterSpacing": 1
+                },
+                {
+                  "type": "text",
+                  "id": "bPsTH",
+                  "fill": "#666666",
+                  "content": "Contact",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "normal",
+                  "letterSpacing": 1
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "Y23fbm",
+      "x": 7896,
+      "y": 0,
+      "name": "Shop",
+      "width": 1440,
+      "height": 1137,
+      "fill": "#0A0A0A",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "XXl90",
+          "name": "shopHeader",
+          "width": "fill_container",
+          "height": 80,
+          "fill": "#0A0A0A",
+          "stroke": {
+            "thickness": {
+              "bottom": 1
+            },
+            "fill": "#333333"
+          },
+          "padding": [
+            32,
+            48
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "OaZjU",
+              "name": "shopLogo",
+              "fill": "#FFFFFF",
+              "content": "EVOLUTION",
+              "fontFamily": "Inter",
+              "fontSize": 24,
+              "fontWeight": "700",
+              "letterSpacing": 6
+            },
+            {
+              "type": "frame",
+              "id": "mS9Di",
+              "name": "shopNav",
+              "gap": 40,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "lH8QX",
+                  "fill": "#FFFFFF",
+                  "content": "SHOP",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal",
+                  "letterSpacing": 1
+                },
+                {
+                  "type": "text",
+                  "id": "NR71k",
+                  "fill": "#FFFFFF",
+                  "content": "GALLERY",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal",
+                  "letterSpacing": 1
+                },
+                {
+                  "type": "text",
+                  "id": "IvyTa",
+                  "fill": "#FFFFFF",
+                  "content": "ABOUT",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal",
+                  "letterSpacing": 1
+                },
+                {
+                  "type": "text",
+                  "id": "NgGBu",
+                  "fill": "#FFFFFF",
+                  "content": "CONTACT",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal",
+                  "letterSpacing": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "AOHcE",
+          "name": "filterBar",
+          "width": "fill_container",
+          "stroke": {
+            "thickness": {
+              "bottom": 1
+            },
+            "fill": "#333333"
+          },
+          "padding": [
+            24,
+            48
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "rvZsk",
+              "name": "filterLeft",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "B46Tlt",
+                  "fill": "#FFFFFF",
+                  "content": "ALL",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal",
+                  "letterSpacing": 2
+                },
+                {
+                  "type": "text",
+                  "id": "oghvD",
+                  "fill": "#666666",
+                  "content": "JACKETS",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal",
+                  "letterSpacing": 2
+                },
+                {
+                  "type": "text",
+                  "id": "CD3Vk",
+                  "fill": "#666666",
+                  "content": "COATS",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal",
+                  "letterSpacing": 2
+                },
+                {
+                  "type": "text",
+                  "id": "I7aD0z",
+                  "fill": "#666666",
+                  "content": "DRESSES",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal",
+                  "letterSpacing": 2
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "fzmW3",
+              "name": "filterRight",
+              "fill": "#666666",
+              "content": "SORT BY: PRICE",
+              "fontFamily": "Inter",
+              "fontSize": 14,
+              "fontWeight": "normal",
+              "letterSpacing": 1
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "H3yL0s",
+          "name": "shopGrid",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 20,
+          "padding": [
+            40,
+            80
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "ZBYrK",
+              "name": "shopRow1",
+              "width": "fill_container",
+              "cornerRadius": 2,
+              "gap": 20,
+              "justifyContent": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "MGe4m",
+                  "name": "shopProd1",
+                  "width": 300,
+                  "layout": "vertical",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "MVB7x",
+                      "name": "productImage",
+                      "width": 260,
+                      "height": 320,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "./images/generated-1778064991831.png",
+                        "mode": "fill"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "id": "Y32A8",
+                      "name": "productName",
+                      "fill": "#FFFFFF",
+                      "content": "LEATHER BOMBER",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "600",
+                      "letterSpacing": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "SxiiE",
+                      "name": "productPrice",
+                      "fill": "#FFFFFF",
+                      "content": "$2,200",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "bkTXG",
+                      "name": "shopImg1",
+                      "width": 260,
+                      "height": 320,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "./images/generated-1778069527550.png",
+                        "mode": "fill"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "IEXGd",
+                  "name": "shopProd2",
+                  "width": 300,
+                  "layout": "vertical",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "uBud4",
+                      "name": "productImage",
+                      "width": 260,
+                      "height": 320,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "./images/generated-1778064978980.png",
+                        "mode": "fill"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "id": "kHO25",
+                      "name": "productName",
+                      "fill": "#FFFFFF",
+                      "content": "WOOL OVERCOAT",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "600",
+                      "letterSpacing": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "xhR8K",
+                      "name": "productPrice",
+                      "fill": "#FFFFFF",
+                      "content": "$3,800",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "IcCK1",
+                      "name": "shopImg2",
+                      "width": 260,
+                      "height": 320,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "./images/generated-1778069529028.png",
+                        "mode": "fill"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "XW7G4",
+                  "name": "shopProd3",
+                  "width": 300,
+                  "layout": "vertical",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "swpKN",
+                      "name": "productImage",
+                      "width": 260,
+                      "height": 320,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "./images/generated-1778064979854.png",
+                        "mode": "fill"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "id": "LTjsM",
+                      "name": "productName",
+                      "fill": "#FFFFFF",
+                      "content": "SILK BLOUSE",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "600",
+                      "letterSpacing": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "D6BYII",
+                      "name": "productPrice",
+                      "fill": "#FFFFFF",
+                      "content": "$1,450",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "RyPlx",
+                      "name": "shopImg3",
+                      "width": 260,
+                      "height": 320,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "./images/generated-1778069525469.png",
+                        "mode": "fill"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "NWVdp",
+                  "name": "shopProd4",
+                  "width": 300,
+                  "layout": "vertical",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "K5yWFh",
+                      "name": "productImage",
+                      "width": 260,
+                      "height": 320,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "./images/generated-1778064990600.png",
+                        "mode": "fill"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "id": "jjAPA",
+                      "name": "productName",
+                      "fill": "#FFFFFF",
+                      "content": "CASHMERE SCARF",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "600",
+                      "letterSpacing": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "caVtn",
+                      "name": "productPrice",
+                      "fill": "#FFFFFF",
+                      "content": "$890",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "uXjaC",
+                      "name": "shopImg4",
+                      "width": 260,
+                      "height": 320,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "./images/generated-1778069535331.png",
+                        "mode": "fill"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "r49VU",
+              "name": "shopRow2",
+              "width": "fill_container",
+              "cornerRadius": 2,
+              "gap": 20,
+              "justifyContent": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "K7LLtX",
+                  "name": "shopProd5",
+                  "width": 300,
+                  "layout": "vertical",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "Xi3ca",
+                      "name": "productImage",
+                      "width": 260,
+                      "height": 320,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "./images/generated-1778064983680.png",
+                        "mode": "fill"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "id": "dSlU5",
+                      "name": "productName",
+                      "fill": "#FFFFFF",
+                      "content": "TAILORED SUIT",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "600",
+                      "letterSpacing": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "jTEpS",
+                      "name": "productPrice",
+                      "fill": "#FFFFFF",
+                      "content": "$4,200",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "ov2WE",
+                      "name": "shopImg5",
+                      "width": 260,
+                      "height": 320,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "./images/generated-1778069528425.png",
+                        "mode": "fill"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "ajdfK",
+                  "name": "shopProd6",
+                  "width": 300,
+                  "layout": "vertical",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "kM4dU",
+                      "name": "productImage",
+                      "width": 260,
+                      "height": 320,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "./images/generated-1778064974116.png",
+                        "mode": "fill"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "id": "W9ObFl",
+                      "name": "productName",
+                      "fill": "#FFFFFF",
+                      "content": "EVENING GOWN",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "600",
+                      "letterSpacing": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "Wu9I2",
+                      "name": "productPrice",
+                      "fill": "#FFFFFF",
+                      "content": "$5,500",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "p2ysYK",
+                      "name": "shopImg6",
+                      "width": 260,
+                      "height": 320,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "./images/generated-1778069524606.png",
+                        "mode": "fill"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "XeFf2",
+                  "name": "shopProd7",
+                  "width": 300,
+                  "layout": "vertical",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "Y4JQGS",
+                      "name": "productImage",
+                      "width": 260,
+                      "height": 320,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "./images/generated-1778064990037.png",
+                        "mode": "fill"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "id": "CCJBA",
+                      "name": "productName",
+                      "fill": "#FFFFFF",
+                      "content": "DENIM JACKET",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "600",
+                      "letterSpacing": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "y5Nwzp",
+                      "name": "productPrice",
+                      "fill": "#FFFFFF",
+                      "content": "$1,800",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "L1xUr",
+                      "name": "shopImg7",
+                      "width": 260,
+                      "height": 320,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "./images/generated-1778069535941.png",
+                        "mode": "fill"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "fzg8T",
+                  "name": "shopProd8",
+                  "width": 300,
+                  "layout": "vertical",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "LT9yK",
+                      "name": "productImage",
+                      "width": 260,
+                      "height": 320,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "./images/generated-1778064984553.png",
+                        "mode": "fill"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "id": "JkLIj",
+                      "name": "productName",
+                      "fill": "#FFFFFF",
+                      "content": "KNIT SWEATER",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "600",
+                      "letterSpacing": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "MJwfg",
+                      "name": "productPrice",
+                      "fill": "#FFFFFF",
+                      "content": "$1,200",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "fSw2p",
+                      "name": "shopImg8",
+                      "width": 260,
+                      "height": 320,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "./images/generated-1778069523534.png",
+                        "mode": "fill"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "MF3ph",
+          "name": "loadMore",
+          "stroke": {
+            "thickness": 1,
+            "fill": "#FFFFFF"
+          },
+          "padding": [
+            12,
+            40
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "zzoqJ",
+              "fill": "#FFFFFF",
+              "content": "LOAD MORE",
+              "fontFamily": "Inter",
+              "fontSize": 14,
+              "fontWeight": "normal",
+              "letterSpacing": 3
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "BNOb4",
+          "name": "shopFooterNew",
+          "width": "fill_container",
+          "fill": "#0A0A0A",
+          "stroke": {
+            "thickness": {
+              "top": 1
+            },
+            "fill": "#333333"
+          },
+          "padding": [
+            32,
+            48
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "U5C9u",
+              "fill": "#FFFFFF",
+              "content": "EVOLUTION",
+              "fontFamily": "Playfair Display",
+              "fontSize": 14,
+              "fontWeight": "normal",
+              "letterSpacing": 4
+            },
+            {
+              "type": "frame",
+              "id": "QwlWd",
+              "name": "shopFootNav",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "RovJO",
+                  "fill": "#666666",
+                  "content": "Privacy",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "normal",
+                  "letterSpacing": 1
+                },
+                {
+                  "type": "text",
+                  "id": "nJOBJ",
+                  "fill": "#666666",
+                  "content": "Terms",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "normal",
+                  "letterSpacing": 1
+                },
+                {
+                  "type": "text",
+                  "id": "pTYBS",
+                  "fill": "#666666",
+                  "content": "Contact",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "normal",
+                  "letterSpacing": 1
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
