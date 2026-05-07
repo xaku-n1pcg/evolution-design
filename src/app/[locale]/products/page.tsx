@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useCallback } from "react";
-import { useSuspenseQuery } from "@apollo/client";
+import { useQuery } from "@apollo/client";
 import { motion } from "framer-motion";
 import {
   POSC_PRODUCTS,
@@ -29,12 +29,12 @@ export default function ProductsPage() {
   const [page, setPage] = useState(1);
   const perPage = 12;
 
-  const { data: categoriesData } = useSuspenseQuery<PoscProductCategoriesData>(
+  const { data: categoriesData, loading: categoriesLoading } = useQuery<PoscProductCategoriesData>(
     POSC_PRODUCT_CATEGORIES,
     { variables: { perPage: 50 } as PoscProductCategoriesVariables }
   );
 
-  const { data: productsData, loading: productsLoading } = useSuspenseQuery<PoscProductsData>(
+  const { data: productsData, loading: productsLoading } = useQuery<PoscProductsData>(
     POSC_PRODUCTS,
     {
       variables: {
@@ -46,7 +46,7 @@ export default function ProductsPage() {
     }
   );
 
-  const { data: countData } = useSuspenseQuery<PoscProductsCountData>(
+  const { data: countData, loading: countLoading } = useQuery<PoscProductsCountData>(
     POSC_PRODUCTS_COUNT,
     {
       variables: {
