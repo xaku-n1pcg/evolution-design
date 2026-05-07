@@ -20,7 +20,7 @@ export default function ProductCard({ product, index = 0 }: ProductCardProps) {
       className="group"
     >
       <Link href={`/products/${product._id}`}>
-        <div className="relative aspect-[3/4] overflow-hidden bg-card rounded-sm">
+        <div className="relative aspect-[3/4] overflow-hidden bg-card">
           {product.attachment?.url ? (
             <Image
               src={product.attachment.url}
@@ -36,10 +36,10 @@ export default function ProductCard({ product, index = 0 }: ProductCardProps) {
           )}
         </div>
         <div className="mt-4 space-y-1">
-          <h3 className="text-sm font-medium tracking-wide group-hover:opacity-70 transition-opacity">
+          <h3 className="text-xs font-medium tracking-[0.15em] uppercase group-hover:opacity-70 transition-opacity">
             {product.name}
           </h3>
-          <p className="text-sm text-muted-foreground">
+          <p className="text-xs text-muted-foreground tracking-wide">
             ${product.unitPrice?.toFixed(2)}
           </p>
         </div>
