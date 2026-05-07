@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@apollo/client": "^4.1.8",
-    "@apollo/client-integration-nextjs": "^4.0.0",
+    "@apollo/client-integration-nextjs": "^0.14.5",
     "framer-motion": "^11.0.0",
     "graphql": "^16.13.2",
     "jotai": "^2.7.0",
