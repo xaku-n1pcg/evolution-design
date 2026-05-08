@@ -1,6 +1,6 @@
 import { getServerApolloClient } from "@/lib/apollo/server-client";
 import { POSC_PRODUCTS } from "@/graphql/ecommerce/queries/product";
-import { PoscProductsData } from "@/graphql/ecommerce/queries/product";
+import { PoscProductsData, Product } from "@/graphql/ecommerce/queries/product";
 import HeroSection from "@/components/home/HeroSection";
 import FeaturedProducts from "@/components/home/FeaturedProducts";
 import AboutSnippet from "@/components/home/AboutSnippet";
@@ -11,13 +11,13 @@ import ContactCTA from "@/components/home/ContactCTA";
 export default async function Home() {
   const client = await getServerApolloClient();
 
-  let products = [];
+  let products: Product[] = [];
   try {
     const { data } = await client.query<PoscProductsData>({
       query: POSC_PRODUCTS,
       variables: { perPage: 8, isKiosk: true },
     });
-    products = data.poscProducts || [];
+    products = data?.poscProducts || [];
   } catch {
     products = [];
   }
