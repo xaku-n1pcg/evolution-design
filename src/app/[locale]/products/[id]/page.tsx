@@ -1,5 +1,5 @@
 import { notFound } from "next/navigation";
-import { getServerApolloClient } from "@/lib/apollo/server-client";
+import { getServerApolloClient, getStaticApolloClient } from "@/lib/apollo/server-client";
 import {
   POSC_PRODUCT_DETAIL,
   POSC_PRODUCTS,
@@ -30,7 +30,7 @@ export default async function ProductPage({ params }: ProductPageProps) {
       query: POSC_PRODUCT_DETAIL,
       variables: { _id: id } as PoscProductDetailVariables,
     });
-    product = productData.poscProductDetail;
+    product = productData?.poscProductDetail;
 
     if (!product) {
       notFound();
@@ -47,7 +47,7 @@ export default async function ProductPage({ params }: ProductPageProps) {
     });
 
     // Filter out current product
-    relatedProducts = (relatedData.poscProducts || []).filter(
+    relatedProducts = (relatedData?.poscProducts || []).filter(
       (p) => p._id !== id
     );
   } catch {
@@ -58,7 +58,7 @@ export default async function ProductPage({ params }: ProductPageProps) {
 }
 
 export async function generateStaticParams() {
-  const client = await getServerApolloClient();
+  const client = getStaticApolloClient();
 
   try {
     const { data } = await client.query<PoscProductsData>({
@@ -66,7 +66,7 @@ export async function generateStaticParams() {
       variables: { perPage: 100, isKiosk: true },
     });
 
-    return (data.poscProducts || []).map((product) => ({
+    return (data?.poscProducts || []).map((product) => ({
       id: product._id,
       locale: "en",
     }));
